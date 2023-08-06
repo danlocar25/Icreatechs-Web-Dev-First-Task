@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Activity 1"
+		},
+		{
+			"path": "../Activity 2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Activity 2"
+	}
+}

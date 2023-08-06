@@ -1,0 +1,84 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center forms */
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 80px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/* Form headings */
+form h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Radio and checkbox styles */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Textarea style */
+textarea {
+    height: 100px;
+}
+
+/* Submit button style */
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #ccc;
+    background-color: black;
+    color: white;
+}
+
+/* Center radio and checkbox labels */
+label[for="male"],
+label[for="female"],
+label[for="java"],
+label[for="python"] {
+    display: inline-block;
+    margin-right: 10px;
+}
